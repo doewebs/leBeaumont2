@@ -2317,3 +2317,9 @@ textarea.input-field {
   font-family: "Bree Serif", serif;
   color: var(--gold-crayola);
 }
+
+footer {
+  text-align: center;
+  padding: 20px;
+  color: rgb(50, 50, 50);
+}
