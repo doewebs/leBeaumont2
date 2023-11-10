@@ -1576,7 +1576,7 @@ textarea.input-field {
  * responsive for larger than 575px screen
  */
 
-@media (min-width: 575px) {
+@media (min-width: 1px) {
   /**
    * CUSTOM PROPERTY
    */
@@ -1608,7 +1608,6 @@ textarea.input-field {
 
   .topbar {
     display: block;
-    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
