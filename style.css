@@ -1575,7 +1575,6 @@ textarea.input-field {
 /**
  * responsive for larger than 575px screen
  */
-
 @media (min-width: 1px) {
   /**
    * CUSTOM PROPERTY
@@ -1670,7 +1669,7 @@ textarea.input-field {
   }
 
   .header .btn {
-    display: block;
+    display: none;
     margin-inline-start: auto;
   }
 
@@ -1776,10 +1775,16 @@ textarea.input-field {
     min-width: max-content;
   }
 }
-
 /**
  * responsive for larger than 768px screen
  */
+
+ @media (min-width: 600px) {
+  .header .btn {
+    display: block;
+    margin-inline-start: auto;
+  }
+}
 
 @media (min-width: 768px) {
   /**
